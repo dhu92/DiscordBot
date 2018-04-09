@@ -14,6 +14,7 @@ bot.registry.registerGroup('random', 'Random');
 bot.registry.registerGroup('fishing', 'Fishing');
 bot.registry.registerGroup('pokemon', 'Pokemon');
 bot.registry.registerGroup('summonerswar', 'SummonersWar');
+bot.registry.registerGroup('test', 'Test');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + '/commands');
 
