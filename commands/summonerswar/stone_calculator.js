@@ -19,7 +19,7 @@ class SummoningStonesCommand extends commando.Command {
   }
 
   async run(message, {value}){
-      message.reply("You can summon " + value/50 + " times with " + value + " stones");
+      message.reply("You can summon " + Math.floor(value/50) + " times with " + value + " stones. You need " + (50 - Math.floor(value%50)) + " more stones for another one.");
 }
 
 }
