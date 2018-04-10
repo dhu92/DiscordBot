@@ -8,13 +8,13 @@ class DiceRollCommand extends commando.Command {
       memberName: 'roll',
       description: 'Rolls a dice',
       args: [
-    {
-        key: 'value',
-        prompt: 'What is the maximum number you wish to appear?',
-        type: 'integer',
-        default: 6
-    }
-]
+            {
+                key: 'value',
+                prompt: 'What is the maximum number you wish to appear?',
+                type: 'integer',
+                default: 6
+            }
+        ]
     });
   }
 

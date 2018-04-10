@@ -9,19 +9,19 @@ class SummoningChancesCommand extends commando.Command {
       memberName: 'summonchance',
       description: 'Find out what you should get for your summons!',
       args: [
-          {
-              key: 'value',
-              prompt: 'What is the number of scrolls you have?',
-              type: 'integer',
-              default: 6
-          },
-          {
-              key: 'type',
-              prompt: 'What type of scrolls do you have?',
-              type: 'string',
-              default: 'mystical'
-          }
-      ]
+            {
+                key: 'value',
+                prompt: 'What is the number of scrolls you have?',
+                type: 'integer',
+                default: 6
+            },
+            {
+                key: 'type',
+                prompt: 'What type of scrolls do you have?',
+                type: 'string',
+                default: 'mystical'
+            }
+        ]
     });
   }
 

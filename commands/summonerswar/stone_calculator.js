@@ -8,13 +8,13 @@ class SummoningStonesCommand extends commando.Command {
       memberName: 'stones',
       description: 'Calculate how many summons you can make',
       args: [
-    {
-        key: 'value',
-        prompt: 'What is the maximum number you wish to appear?',
-        type: 'integer',
-        default: 6
-    }
-]
+            {
+                key: 'value',
+                prompt: 'What is the maximum number you wish to appear?',
+                type: 'integer',
+                default: 6
+            }
+        ]
     });
   }
 

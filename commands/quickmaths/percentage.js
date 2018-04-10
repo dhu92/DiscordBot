@@ -8,13 +8,13 @@ class PercentageCommand extends commando.Command {
       memberName: 'percentage',
       description: 'Calculates the percentages of the input',
       args: [
-    {
-        key: 'value',
-        prompt: 'Give me your numbers seperated by a ,',
-        type: 'string',
-        default: 6
-    }
-]
+            {
+                key: 'value',
+                prompt: 'Give me your numbers seperated by a ,',
+                type: 'string',
+                default: 6
+            }
+        ]
     });
   }
 

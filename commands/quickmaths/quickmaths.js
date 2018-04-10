@@ -9,13 +9,13 @@ class QuickmathsCommand extends commando.Command {
       memberName: 'quickmaths',
       description: 'Quickmaths',
       args: [
-    {
-        key: 'value',
-        prompt: 'Give me your numbers seperated by a ,',
-        type: 'string',
-        default: 6
-    }
-]
+        {
+            key: 'value',
+            prompt: 'Give me your numbers seperated by a ,',
+            type: 'string',
+            default: 6
+        }
+      ]
     });
   }
 
@@ -23,7 +23,7 @@ class QuickmathsCommand extends commando.Command {
       var parser = new FormulaParser();
       var msg = "";
       msg += (parser.parse(value).result);
-      message.reply(value + " equals " + msg + ", quickmaths");// + " , test @<"+message.author.username+">");
+      message.reply(value + " equals " + msg + ", quickmaths");
   }
 
 }
